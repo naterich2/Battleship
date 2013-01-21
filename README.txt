@@ -1,0 +1,1 @@
+This is a virutal clone of the classic boardgame, Battleship. 
