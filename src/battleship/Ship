@@ -1,0 +1,18 @@
+package battleship;
+
+public class Ship{
+    private int length, xpos, ypos, health;
+    private boolean vertical, alive;
+    public Ship(int length, int xpos, int ypos, boolean vertical){
+        this.length = length;
+        this.xpos = xpos;
+        this.ypos = ypos;
+        this.vertical = vertical;
+        alive = true;
+        health = length;
+    }
+    public void Hit(int xpos, int ypos){
+}
+    
+
+    
