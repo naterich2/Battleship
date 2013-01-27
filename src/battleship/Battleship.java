@@ -7,6 +7,7 @@ public class Battleship {
 
  
     public static void main(String[] args) {
+      //Hold Ships for each player at a specific point
         HashMap<Point, Ship> pShips = new HashMap<Point, Ship>();
         HashMap<Point, Ship> cShips = new HashMap<Point, Ship>();
         
