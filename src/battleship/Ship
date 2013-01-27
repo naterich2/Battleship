@@ -12,12 +12,10 @@ public class Ship{
         health = length;
     }
     public void Hit(int xpos, int ypos);
-    public static Ship randShip(){
-        int l, x, y, v;
+    public static Ship randShip(int x, int y){
+        int l, v;
         boolean v1;
         v = (int) Math.random()*2;
-        x = (int) Math.Random*9+1;
-        y = (int) Math.Random*9+1;
         int [] lpossibilities = new int[4];
         lpossibilities[0] = 2;
         lpossibilities[1] = 4;
@@ -31,6 +29,7 @@ public class Ship{
         Ship s = new Ship(l,x,y,v1);
         return s;
     }
+
 }
     
 
